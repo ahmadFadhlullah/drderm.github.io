@@ -1,0 +1,174 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.style-script {
+    font-family: 'Style Script', cursive;
+}
+/* end fonts */
+/* Heading */
+.bar {
+    width:100%;
+    height:700px;
+    background-color:#fad2d1;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.wp-image-text {
+    width:400px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+.wp-image-text > img {
+    width:100%;
+}
+.wp-text-outer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+/* End Heading */
+
+/* other */
+.dark-font {
+    color:#8b8b8b;
+}
+.custom-size-font {
+    font-size:15pt;
+}
+.size-font-large {
+    font-size:40pt;
+}
+.images {
+    width:100%;
+}
+.iconic-text {
+    font-size:12px;
+    font-weight:bold;
+}
+.wp{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.custom-hr {
+    width:40px;
+    border:none;
+    border-bottom:2px solid #8b8b8b;
+}
+.custom-hr-white {
+    width:40px;
+    border:none;
+    border-bottom:2px solid white;
+}
+.icon {
+    width:40%;
+    height:auto;
+}
+.alamat {
+    width:40%;
+}
+.w-100 {
+    width:100%;
+}
+.icon > img {
+    width:25px;
+}
+/* End other */
+/* change default */
+a {
+    text-decoration:none;
+    display:inline-block;
+}
+/* end change default */
+/* button */
+.amaryllis-button {
+    width:100%;
+    height:35px;
+    text-align:center;
+    line-height:35px;
+    background-color: #a14683;
+    color:white;
+    border-radius:12px;
+}
+.primaya-button {
+    width:100%;
+    height:35px;
+    text-align:center;
+    line-height:35px;
+    background-color:#025a7e;
+    border-radius:12px;
+    color:white;
+}
+.asyifa-button {
+    width:100%;
+    height:35px;
+    text-align:center;
+    line-height:35px;
+    background-color:#0da847;
+    border-radius:12px;
+    color:white;
+}
+.images {
+    width:100%;
+}
+.col-4 {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wp-image {
+    width:100%;
+}
+.images{
+    width:150px;
+}
+.footer {
+    color:white;
+    width:100%;
+    height:auto;
+    background-color:#6e6e6e;
+}
+/* button */
+
+@media all and (min-width:320px) and (max-width:787px) {
+    .bar {
+        height:500px;
+    }
+    .alamat {
+        width:50%;
+    }
+    .icon {
+        width:50%;
+    }
+    .card {
+        width:400px !important;
+    }
+    .images {
+        width:80px;
+    }
+    .size-font-large{
+        font-size:30pt;
+    }
+    .wp-image-text{
+        width:50%;
+    }
+    .wp {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .iconic-text {
+        font-size:10px;
+    }
+}
